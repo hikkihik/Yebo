@@ -4,6 +4,6 @@ $(document).ready(function() {
 		loop: true,
 		mouseDrag: false,
 		autoplay: true,
-		autoplayHoverPause: true,
+		autoplayHoverPause: true
 	});
 });
