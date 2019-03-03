@@ -230,7 +230,64 @@ button {
   width: 34%;
 }
 
+/* Tweet */
+.tweet {
+	padding: 12.5rem 28rem 7rem;
+	background-color: var(--bg-light);
+	text-align: center;
+}
 
+.tweet__icon--twitter {
+	font-size: 4rem;
+	color: #56c7ee;
+	margin-bottom: 3.5rem;
+}
+
+.tweet__icon--facebook {
+	font-size: 4rem;
+	color: #537bbd;
+	margin-bottom: 3.5rem;
+}
+
+.tweet__icon--printerest {
+	font-size: 4rem;
+	color: #eb5755;
+	margin-bottom: 3.5rem;
+}
+
+.tweet__heading {
+	font-size: 1.8rem;
+	margin-bottom: 2rem;
+}
+
+.tweet__location, .tweet__author {
+	color: var(--heading);
+	font-weight: bold;
+}
+
+.tweet__time {
+	color: var(--text);
+	font-weight: 300;
+	padding-left: 1.5rem;
+	margin-left: 1.5rem;
+	position: relative;
+}
+
+.tweet__time:before {
+	content: "/";
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tweet__content {
+	font-size: 2.4rem;
+	line-height: 1.4;
+	color: var(--text);
+	font-style: italic;
+	max-width: 104rem;
+	margin: 0 auto 10rem;
+}
 
 
 
