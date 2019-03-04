@@ -47,7 +47,7 @@ button {
 	--primary-color: #64c29e;
 	--heading: #353738;
 	--text: #848789;
-	--input-boder: #d3d7d9;
+	--input-border: #d3d7d9;
 	--input-text: #cdcdcd;
 	--bg-light: #f7f7f7;
 	--bg-dark: #282f35;
@@ -106,7 +106,7 @@ button {
 }
 
 .feature__header {
-	padding: 12rem 28rem 14.5rem;
+	padding: 12rem 1.5rem 14.5rem;
 }
 
 .feature__img-top {
@@ -232,7 +232,7 @@ button {
 
 /* Tweet */
 .tweet {
-	padding: 12.5rem 28rem 7rem;
+	padding: 12.5rem 1.5rem 7rem;
 	background-color: var(--bg-light);
 	text-align: center;
 }
@@ -328,7 +328,6 @@ button {
 	width: 50%;
 	height: 100%;
 	position: relative;
-	transition: .6s;
 }
 
 .images__item:before {
@@ -375,8 +374,78 @@ button {
 	display: block;
 }
 
+/* Discover */
+.discover {
+	padding: 7.5rem 1.5rem;
+	background-color: var(--bg-dark);
+	text-align: center;
+}
 
+.discover__btn {
+	display: inline-block;
+	min-width: 30rem;
+	padding: 2rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: #fff;
+	border: 1px solid currentColor;
+	box-shadow: none;
+	outline: none;
+	transition: .2s linear;
+}
 
+.discover__btn:hover {
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+}
+
+/* Mail */
+.mail {
+	padding: 11rem 1.5rem;
+	background-color: #fff;
+	text-align: center;
+}
+
+.mail__logo {
+	margin: 0 auto 3.5rem;
+}
+
+.mail__text {
+	font-size: 24px;
+	font-style: italic;
+	color: var(--text);
+	margin-bottom: 3.5rem;
+	display: inline-block;
+}
+
+.mail__form {
+	display: flex;
+	justify-content: space-between;
+	max-width: 53.4rem;
+	margin: 0 auto;
+}
+
+.mail__form-inp {
+	font-size: 2rem;
+	font-style: italic;
+	color: var(--input-text);
+	border: 1px solid var(--input-border);
+	padding: 2.5rem;
+	width: 74%;
+}
+
+.mail__form-btn {
+	width: 25%;
+	border: 0;
+	outline: none;
+	color: #fff;
+	background-color: var(--primary-color);
+	font-size: 2.4rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
 
 
 
