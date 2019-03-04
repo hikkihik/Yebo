@@ -10,12 +10,18 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 	<div class="wrapper">
 		<!-- Header -->
 		<header class="header">
 			<nav class="nav">
+				<input type="checkbox" id="collapse" class="inp__collapse">
+				<label for="collapse" class="btn__collapse">
+					<i class="fas fa-bars"></i>
+				</label>
+				<div class="nav__bg"></div>
 				<ul class="nav__list">
 					<li class="nav__item"><a href="javascript:void(0)" class="nav__link">About us</a></li>
 					<li class="nav__item"><a href="javascript:void(0)" class="nav__link">Work</a></li>
@@ -218,10 +224,10 @@
 
 		<!-- Mail -->
 		<section class="mail">
-			<img src="images/logo.png" alt="Logo" class="mail__logo">
+			<a href="index.html"><img src="images/logo.png" alt="Logo" class="mail__logo"></a>
 			<span class="mail__text">Stay on the saddle!</span>
 			<form class="mail__form" action="javascript:void(0)" autocomplete="off">
-				<input type="email" name="email" class="mail__form-inp" placeholder="enter your email..." autofocus>
+				<input type="email" name="email" class="mail__form-inp" placeholder="enter your email...">
 				<button class="mail__form-btn">Go</button>
 			</form>
 		</section>
@@ -245,7 +251,7 @@
 			<div class="footer__item">
 				<div class="footer__credits">
 					<p class="footer__credits-text">Handcrafted by</p>
-					<img src="images/yebo-logo.png" alt="Yebo logo" class="footer__credits-logo">
+					<a href="http://www.yebocreative.com" target="_blank"><img src="images/yebo-logo.png" alt="Yebo logo" class="footer__credits-logo"></a>
 				</div>
 			</div>
 		</footer>
