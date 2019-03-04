@@ -106,7 +106,7 @@ button {
 }
 
 .feature__header {
-	padding: 12rem 28rem 14.5rem;
+	padding: 12rem 1.5 14.5rem;
 }
 
 .feature__img-top {
@@ -232,7 +232,7 @@ button {
 
 /* Tweet */
 .tweet {
-	padding: 12.5rem 28rem 7rem;
+	padding: 12.5rem 1.5rem 7rem;
 	background-color: var(--bg-light);
 	text-align: center;
 }
@@ -328,7 +328,6 @@ button {
 	width: 50%;
 	height: 100%;
 	position: relative;
-	transition: .6s;
 }
 
 .images__item:before {
@@ -375,7 +374,32 @@ button {
 	display: block;
 }
 
+/* Discover */
+.discover {
+	padding: 7.5rem 1.5rem;
+	background-color: var(--bg-dark);
+	text-align: center;
+}
 
+.discover__btn {
+	display: inline-block;
+	min-width: 30rem;
+	padding: 2rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: #fff;
+	border: 1px solid currentColor;
+	box-shadow: none;
+	outline: none;
+	transition: .2s linear;
+}
+
+.discover__btn:hover {
+	background-color: var(--primary-color);
+	border-color: var(--primary-color);
+}
 
 
 
