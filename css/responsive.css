@@ -1,5 +1,5 @@
 /* Header */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 992px) {
 	.btn__collapse {
 		display: none;
 	}
@@ -57,5 +57,30 @@
 
 	.inp__collapse:checked ~ .nav__list {
 		transform: translateX(0);
+	}
+}
+
+/* Feature */
+@media screen and (max-width: 1280px) {
+	.feature__item-content-top {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.feature__item {
+		height: auto;
+		flex-direction: column;
+	}
+
+	.feature .feature__item > .feature__item-img,
+	.feature .feature__item > .feature__item-content {
+		width: 100%;
+	}
+
+	.feature__item-content-top {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 }
