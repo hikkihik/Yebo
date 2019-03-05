@@ -84,3 +84,19 @@
 		padding-bottom: 2rem;
 	}
 }
+
+/* Images Shop */
+@media screen and (max-width: 768px) {
+	.images__shop {
+		height: auto;
+		flex-direction: column;
+	}
+
+	.images__block {
+		width: 100%;
+	}
+
+	.images__item {
+		height: auto;
+	}
+}
